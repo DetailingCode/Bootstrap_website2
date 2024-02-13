@@ -22,6 +22,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.7);
 	width: 100%;
 	height: 100%;
+	z-index: -1;
 }
 
 .orange-color {
@@ -42,4 +43,21 @@ body {
 }
 .navbar-toggler{
 	padding: 1em 2em;
+}
+
+// ========= HOME SECTION ===========\
+
+.home{
+	position: relative;
+	height: 60rem;
+	background-image: url(../img/main-new_york.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+	.btn{
+		text-transform: uppercase;
+		padding: 1em 2em;
+		font-size: 1.4rem;
+	}
 }
