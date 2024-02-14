@@ -59,4 +59,18 @@ body {
 }
 .home .welcome-text {
   font-size: 2.2rem;
+}
+
+.aboutus .aboutus-box-title,
+.aboutus .aboutus-icon {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.aboutus .aboutus-icon {
+  font-size: 3.5rem;
+}
+.aboutus .accordion-button {
+  font-size: 1.8rem;
+  padding: 1em;
 }/*# sourceMappingURL=main.css.map */
