@@ -64,30 +64,52 @@ body {
 	}
 }
 
-
-
 .aboutus {
+	box-shadow: inset 0px -20px 26px -30px rgba(50, 50, 53, 1);
+
 	.aboutus-box-title,
 	.aboutus-icon {
 		font-size: 2rem;
 		text-transform: uppercase;
 		font-weight: bold;
 	}
-	.aboutus-icon{
+	.aboutus-icon {
 		font-size: 3.5rem;
 	}
 
-
-	.accordion-button{
+	.accordion-button {
 		font-size: 1.8rem;
 		padding: 1em;
 	}
+	.accordion-button:not(.collapsed) {
+		background-color: rgb(240, 240, 240);
+	}
 }
 
+// ----------- TEAM SECTION -----------\
 
-// ----------- TEA< SECTION -----------\
+.team {
+	background-color: rgb(240, 240, 240);
+	box-shadow: inset 0px -25px 26px -15px rgba(50, 50, 53, 1);
+	.card-img-top {
+		height: 300px;
+		object-fit: cover;
+	}
+	.card-title {
+		font-size: 2rem;
+	}
+}
 
+// -------------- CONTACT -------------
 
-.card-title{
-	font-size: 2rem;
+.contact {
+	.contact-title {
+		font-size: 2rem;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.submit-btn{
+		font-size: 1.6rem;
+	}
 }

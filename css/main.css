@@ -61,6 +61,9 @@ body {
   font-size: 2.2rem;
 }
 
+.aboutus {
+  box-shadow: inset 0px -20px 26px -30px rgb(50, 50, 53);
+}
 .aboutus .aboutus-box-title,
 .aboutus .aboutus-icon {
   font-size: 2rem;
@@ -74,7 +77,28 @@ body {
   font-size: 1.8rem;
   padding: 1em;
 }
+.aboutus .accordion-button:not(.collapsed) {
+  background-color: rgb(240, 240, 240);
+}
 
-.card-title {
+.team {
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 0px -25px 26px -15px rgb(50, 50, 53);
+}
+.team .card-img-top {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team .card-title {
   font-size: 2rem;
+}
+
+.contact .contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact .submit-btn {
+  font-size: 1.6rem;
 }/*# sourceMappingURL=main.css.map */
