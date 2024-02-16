@@ -12,7 +12,14 @@ html {
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.6rem;
+	position: relative;
 }
+
+[id]{
+	scroll-margin-top: 84px;
+}
+
+
 
 .hero-shadow {
 	position: absolute;
@@ -111,5 +118,12 @@ body {
 
 	.submit-btn{
 		font-size: 1.6rem;
+	}
+}
+
+
+@media (min-width:992px) {
+	[id]{
+		scroll-margin-top: 67px;
 	}
 }
